@@ -1,0 +1,46 @@
+export const categorias = {
+    Alimentacion: [
+        {id: 1, nombre: "Ácidos grasos omega-3", consejo: "Incluir pescados grasos como el salmón, las sardinas y nueces ricas en omega-3 en la dieta."},
+        {id: 2, nombre: "Frutas y verduras", consejo: "Consumir alimentos ricos en antioxidantes y nutrientes, como bayas, vegetales de hojas verdes, zanahorias y tomates."},
+        {id: 3, nombre: "Frutos secos y semillas", consejo: "Incorporar almendras, nueces, semillas de chía y semillas de lino como fuentes de grasas saludables y nutrientes."},
+        {id: 4, nombre: "Cereales integrales", consejo: "Incluir alimentos como avena, quinua y arroz integral para obtener energía sostenida y nutrientes esenciales."},
+        {id: 5, nombre: "Aceite de oliva", consejo: "Utilizar aceite de oliva debido a sus propiedades antiinflamatorias y antioxidantes."},
+        {id: 6, nombre: "Legumbres", consejo: "Incorporar frijoles, lentejas y garbanzos por su contenido en proteínas, fibra y nutrientes importantes."},
+        {id: 7, nombre: "Carnes", consejo: "Consumir carnes para obtener proteínas de alto valor biológico, como el hierro de las carnes rojas y los ácidos grasos omega-3 del pescado."},
+        {id: 8, nombre: "Chocolate", consejo: "En cantidades moderadas, el chocolate negro con alto contenido de cacao puede ser beneficioso debido a sus antioxidantes y compuestos estimulantes como la teobromina y la cafeína."},
+        {id: 9, nombre: "Especias", consejo: "Utilizar especias como cúrcuma, jengibre y canela que pueden tener propiedades antiinflamatorias y antioxidantes."},
+    ],
+    Ejercicios: [
+        {id: 1, nombre: "Caminatas suaves", consejo: "Realizar caminatas de bajo impacto en diferentes entornos, como el vecindario, parques locales o áreas seguras."},
+        {id: 2, nombre: "Estiramientos", consejo: "Mantener la flexibilidad y reducir la rigidez muscular con estiramientos suaves."},
+        {id: 3, nombre: "Ejercicios de silla", consejo: "Realizar ejercicios de silla si la persona tiene dificultades para moverse de manera independiente."},
+        {id: 4, nombre: "Baile", consejo: "Participar en bailes suaves y rítmicos como forma divertida de ejercicio."},
+        {id: 5, nombre: "Yoga suave", consejo: "Mejorar la flexibilidad, la fuerza y la relajación con yoga diseñado para personas mayores o con movilidad reducida."},
+        {id: 6, nombre: "Ejercicios de equilibrio", consejo: "Realizar ejercicios que mejoran el equilibrio, como pararse sobre un solo pie o caminar en línea recta."},
+        {id: 7, nombre: "Ejercicios de resistencia", consejo: "Utilizar bandas de resistencia o pesos ligeros para fortalecer los músculos."},
+        {id: 8, nombre: "Juegos de movimiento", consejo: "Participar en juegos que involucran movimientos simples, como lanzar una pelota suave o jugar al 'simón dice'."},
+    ],
+    Estimulos: [
+        {id: 1, nombre: "Rutina", consejo: "Establecer hábitos y rutinas diarias para proporcionar seguridad y previsibilidad."},
+        {id: 2, nombre: "Utilizar apoyos visuales", consejo: "Colocar calendarios y recordatorios visuales en lugares prominentes."},
+        {id: 3, nombre: "Simplificación", consejo: "Mantener un entorno sencillo y ordenado y dividir las actividades en pasos simples."},
+        {id: 4, nombre: "Estimulación cognitiva", consejo: "Jugar juegos de memoria, rompecabezas y actividades desafiantes."},
+        {id: 5, nombre: "Socializar", consejo: "Mantener el contacto con amigos y familiares para ejercitar la mente y el bienestar emocional."},
+        {id: 6, nombre: "Descanso adecuado", consejo: "Establecer una rutina de sueño regular y crear un ambiente cómodo para dormir."},
+    ],
+    Cuidados: [
+        {id: 1, nombre: "Respetar la dignidad", consejo: "Permitir a la persona hacer tanto como pueda por sí misma y respeta su autonomía dentro de lo posible."},
+        {id: 2, nombre: "Planificación financiera y legal", consejo: "Asegurarse de que los asuntos legales y financieros estén en orden, como la planificación anticipada de la atención médica y la designación de un apoderado."},
+    ],
+    Psicologia: [ //hay que llenarlo.
+        {id: 1, nombre: "consejo1", consejo: "bla bla bla"},
+        {id: 2, nombre: "consejo2", consejo: "bla bla bla"},
+    ],
+    Cuidador: [
+        {id: 1, titulo: "Educarse sobre el tema", consejo: "Aprende sobre el Alzheimer para comprender mejor los desafíos que enfrenta la persona y cómo brindar el mejor apoyo."},
+        {id: 2, nombre: "Auto-cuidado", consejo: "Recuerda no descuidar tu propia salud física y emocional. Busca tiempo para relajarte, hacer ejercicio y mantener tus propias relaciones sociales."},
+        {id: 3, nombre: "Red de apoyo", consejo: "Busca grupos de apoyo para cuidadores, ya sea en persona o en línea. Compartir experiencias con otros puede ser reconfortante y útil."},
+        {id: 4, nombre: "Comunicación", consejo: "Usar un lenguaje tranquilo y claro. Dale tiempo a la persona para que procese la información y evita discusiones innecesarias."},
+        {id: 5, nombre: "Tiempo de calidad", consejo: "Dedica momentos para compartir actividades placenteras juntos, como escuchar música, mirar fotos o disfrutar de la naturaleza."},
+    ],
+}
